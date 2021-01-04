@@ -1,29 +1,16 @@
 
 > Az oldal megnyitása itt: [https://openbit-hu.github.io/obmaths/](https://openbit-hu.github.io/obmaths/)
 
-## Use as Extension
+## Használat kiterjesztésként
 
-This repository can be added as an **extension** in MakeCode.
+Ez az adattár használható **kiterjesztésként** a MakeCode-ban..
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/openbit-hu/obmaths** and import
+* Nyissa meg a [https://makecode.microbit.org/](https://makecode.microbit.org/) linket
+* Kattintson a **New Project** gombra
+* Kattintson a **Kiterjesztések** gombra a lenyitható menü alatt
+* Másolja be a keresőmezőbe a linket: **https://github.com/openbit-hu/obmaths** és importálja
 
-## A projekt szerkesztése ![Állapotjelvény létrehozása](https://github.com/openbit-hu/obmaths/workflows/MakeCode/badge.svg)
 
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/openbit-hu/obmaths** and click import
-
-## Blokkok előnézete
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A blokkok renderelt nézete](https://github.com/openbit-hu/obmaths/raw/master/.github/makecode/blocks.png)
 
 #### Metaadatok (kereséshez, rendereléshez)
 
