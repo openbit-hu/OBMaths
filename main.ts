@@ -1,4 +1,4 @@
-
+//% color=#008060 weight=100 icon="\f1ec" block="obMaths"
 namespace obMaths{
     //%blockId = obmathsxor
     //%block = "xor $a $b"
