@@ -1,2 +1,5 @@
 //basic.showNumber(obMaths.isPrime(23))
-obMaths.plotValue(7, -10, 15)
+for(let i=-20;i<50;i++){
+    obMaths.plotValue(i, -10, 15)
+    basic.pause(300)
+}
