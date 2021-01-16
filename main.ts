@@ -4,8 +4,8 @@ namespace obMaths{
     export function xor(a: number, b: number): number{
         return a^b;
     }
-    //% blockId=obMaths_prime block="prime $x"
-    export function prime(x: number): number{
+    //% blockId=obMaths_isPrime block="is prime $x"
+    export function isPrime(x: number): number{
         if(x == 0) return 0
         if(x == 1) return 0
         if(x == 2) return 0
