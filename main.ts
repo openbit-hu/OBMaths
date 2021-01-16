@@ -1,3 +1,4 @@
+
 namespace obMaths{
     //%blockId = "obMaths_xor"
     //%block = "xor $a $b"
@@ -6,7 +7,7 @@ namespace obMaths{
     }
     //%blockId = "obMaths_prime"
     //%block = "prime $x"
-    export function prime(x: number): boolean{
+    export function prime(x: number): number{
 /*        if(x == 0) return false
         if(x == 1) return false
         if(x == 2) return true
@@ -14,6 +15,6 @@ namespace obMaths{
         for (let i = 3; i <= numsqrt; i+=2) {
             if (x % i == 0) return false
         }*/
-        return true
+        return 1
     }
 }
