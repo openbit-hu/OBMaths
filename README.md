@@ -1,19 +1,30 @@
 
-> Az oldal megnyitása itt: [https://openbit-hu.github.io/obmaths/](https://openbit-hu.github.io/obmaths/)
 
-## Használat kiterjesztésként
+> Az oldal megnyitása itt: [https://openbit-hu.github.io/obtimer/](https://openbit-hu.github.io/obtimer/)
 
-Ez az adattár használható **kiterjesztésként** a MakeCode-ban..
+## Use as Extension
 
-* Nyissa meg a [https://makecode.microbit.org/](https://makecode.microbit.org/) linket
-* Kattintson a **New Project** gombra
-* Kattintson a **Kiterjesztések** gombra a lenyitható menü alatt
-* Másolja be a keresőmezőbe a linket: **https://github.com/openbit-hu/obmaths** és importálja
+This repository can be added as an **extension** in MakeCode.
 
-## Függvények a kiterjesztésben
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/openbit-hu/obtimer** and import
 
-### xor
-Elvégzi a xor műveletet a bevitt két számon, és visszatér egy számmal, amellyel szabadon dolgozhatunk.
+## A projekt szerkesztése ![Állapotjelvény létrehozása](https://github.com/openbit-hu/obtimer/workflows/MakeCode/badge.svg)
+
+To edit this repository in MakeCode.
+
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/openbit-hu/obtimer** and click import
+
+## Blokkok előnézete
+
+This image shows the blocks code from the last commit in master.
+A kép frissítése eltarthat néhány percig.
+
+![A blokkok renderelt nézete](https://github.com/openbit-hu/obtimer/raw/master/.github/makecode/blocks.png)
 
 #### Metaadatok (kereséshez, rendereléshez)
 
