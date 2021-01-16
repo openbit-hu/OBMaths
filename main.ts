@@ -1,15 +1,11 @@
 //% color=#008060 weight=50 icon="\uf12b" block="obMaths"
 namespace obMaths{
-    //%blockId = obMaths_xor
+    //%blockId = obmathsxor
     //%block = "xor $a $b"
     export function xor(a: number, b: number): number{
         return a^b;
     }
-    /**
-     * Attaches code to run when the timer triggers an event.
-     * @param body TODO
-     */
-    //%blockId = obMaths_prime
+    //%blockId = obmathsprime
     //%block = "prime $x"
     export function prime(x: number): boolean{
         if(x == 0) return false
