@@ -5,6 +5,10 @@ namespace obMaths{
     export function xor(a: number, b: number): number{
         return a^b;
     }
+    /**
+     * Attaches code to run when the timer triggers an event.
+     * @param body TODO
+     */
     //%blockId = obMaths_prime
     //%block = "prime $x"
     export function prime(x: number): boolean{
