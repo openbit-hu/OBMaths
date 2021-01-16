@@ -5,4 +5,9 @@ namespace obMaths{
     export function xor(a: number, b: number): number{
         return a^b;
     }
+    //%blockId = "obMaths_or"
+    //%block = "or $a $b"
+    export function or(a: number, b: number): number{
+        return a | b;
+    }
 }
