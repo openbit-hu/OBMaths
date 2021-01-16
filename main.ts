@@ -1,4 +1,4 @@
-//% color=#008060 weight=50 icon="\uf698" block="obTimer"
+//% color=#008060 weight=50 icon="\uf1ec" block="obTimer"
 namespace obMaths{
     //%blockId = obmathsxor
     //%block = "xor $a $b"
