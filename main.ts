@@ -16,7 +16,7 @@ namespace obMaths{
         }
         return 1
     }
-    //% blockId=obMaths_plotValue block="plotValue $value $min $max"
+    //% blockId=obMaths_plotValue block="plotValue $value min $min max $max"
     export function plotValue(value: number,min: number, max:number) {
         let x = min
         let dx = (max-min)/25
