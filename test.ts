@@ -1,0 +1,1 @@
+basic.showNumber(obMaths.isPrime(23))
