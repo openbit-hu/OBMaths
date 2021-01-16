@@ -1,9 +1,18 @@
 //% color=#008060 weight=100 icon="\uf12b" block="obMaths";
 namespace obMaths{
+    /**
+     * Returns with the result of the (a xor b) operation.
+     * @param a an integer number
+     * @param b an integer number
+     */
     //% blockId=obMaths_xor block="xor $a $b" 
     export function xor(a: number, b: number): number{
         return a^b;
     }
+    /**
+     * Returns whether the number is a prime.
+     * @param n a natural number
+     */
     //% blockId=obMaths_isPrime block="is prime $n"
     export function isPrime(n: number): number{
         if(n == 0) return 0
