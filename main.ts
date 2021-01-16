@@ -8,10 +8,10 @@ namespace obMaths{
     export function isPrime(x: number): number{
         if(x == 0) return 0
         if(x == 1) return 0
-        if(x == 2) return 0
+        if(x == 2) return 1
         let numsqrt = Math.sqrt(x);
         for (let i = 3; i <= numsqrt; i+=2) {
-            if (x % i == 0) 0
+            if (x % i == 0) return 0
         }
         return 1
     }
