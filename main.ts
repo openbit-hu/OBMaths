@@ -1,6 +1,6 @@
 //% color=#008060 weight=100 icon="\uf12b" block="obMaths";
 namespace obMaths{
-    //% blockId=obMaths_xor block="xor $a $b"
+    //% blockId=obMaths_xor block="xor $a $b" 
     export function xor(a: number, b: number): number{
         return a^b;
     }
@@ -16,7 +16,13 @@ namespace obMaths{
         }
         return 1
     }
-    //% blockId=obMaths_plotValue block="plotValue $value min $min max $max"
+    /**
+     * Displays a value as a segmented linear bar
+     * When value equals to @param min no LED is lighting
+     * When value equals to @param max all the LEDs are lighting
+     */
+    //% blockId=obMaths_plotValue
+    //% block="plotValue $value min $min max $max"
     export function plotValue(value: number,min: number, max:number) {
         let x = min
         let dx = (max-min)/25
