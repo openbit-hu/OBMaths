@@ -5,7 +5,7 @@ namespace obMaths{
      * @param a an integer number
      * @param b an integer number
      */
-    //% blockId=obMaths_xor block="xor $a $b" 
+    //% blockId=obMaths_xor block="$a xor $b" 
     export function xor(a: number, b: number): number{
         return a^b;
     }
