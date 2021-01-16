@@ -18,8 +18,8 @@ namespace obMaths{
     }
     /**
      * Displays a value as a segmented linear bar
-     * When value equals to @param min no LED is lighting
-     * When value equals to @param max all the LEDs are lighting
+     * @param min no LED is lighting
+     * @param max all the LEDs are lighting
      */
     //% blockId=obMaths_plotValue
     //% block="plotValue $value min $min max $max"
