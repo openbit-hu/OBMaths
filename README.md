@@ -10,7 +10,10 @@ Ez az adattár használható **kiterjesztésként** a MakeCode-ban..
 * Kattintson a **Kiterjesztések** gombra a lenyitható menü alatt
 * Másolja be a keresőmezőbe a linket: **https://github.com/openbit-hu/obmaths** és importálja
 
+## Függvények a kiterjesztésben
 
+> #### xor
+Elvégzi a xor műveletet a bevitt két számon, és visszatér egy számmal, amellyel szabadon dolgozhatunk.
 
 #### Metaadatok (kereséshez, rendereléshez)
 
