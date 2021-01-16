@@ -12,7 +12,7 @@ Ez az adattár használható **kiterjesztésként** a MakeCode-ban..
 
 ## Függvények a kiterjesztésben
 
-#### xor
+### xor
 Elvégzi a xor műveletet a bevitt két számon, és visszatér egy számmal, amellyel szabadon dolgozhatunk.
 
 #### Metaadatok (kereséshez, rendereléshez)
