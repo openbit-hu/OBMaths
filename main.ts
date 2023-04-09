@@ -27,7 +27,7 @@ namespace obMaths{
      * Returns with the tilting angle in XY direction.
      */
     //% blockId=obMaths_getXYAngle block="getXYAngle" 
-    function getXYAngle() {
+    export function getXYAngle() {
         return getXYAngleRadian() * 180 / Math.PI
     }
 
