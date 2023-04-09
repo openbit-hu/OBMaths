@@ -1,5 +1,49 @@
 //% color=#008060 weight=100 icon="\uf12b" block="obMaths";
 namespace obMaths{
+    function getXYAngleRadian() {
+        let x = input.acceleration(Dimension.X)
+        let y = input.acceleration(Dimension.Y)
+        if (x > 1023) x = 1023
+        if (x < -1023) x = -1023
+        if (y > 1023) y = 1023
+        if (y < -1023) y = -1023
+        let ac = Math.acos(x / 1024)
+        let as = Math.asin(y / 1024)
+        if (x > 0) {
+            if (y > 0) return (ac + as) / 2
+            ac = 2 * Math.PI - ac
+            as = 2 * Math.PI + as
+            return (ac + as) / 2
+        }
+        if (y > 0) {
+            as = Math.PI - as
+            return (ac + as) / 2
+        }
+        ac = 2 * Math.PI - ac
+        as = Math.PI - as
+        return (ac + as) / 2
+    }
+    /**
+     * Returns with the tilting angle in XY direction.
+     */
+    //% blockId=obMaths_getXYAngle block="getXYAngle" 
+    function getXYAngle() {
+        return getXYAngleRadian() * 180 / Math.PI
+    }
+
+    function getZAngleRadian() {
+        let z = input.acceleration(Dimension.Z)
+        if (z > 1023) z = 1023
+        if (z < -1023) z = -1023
+        return Math.asin(z / 1024);
+    }
+    /**
+     * Returns with the tilting angle in Z direction.
+     */
+    //% blockId=obMaths_getZAngle block="getZAngle" 
+    export function getZAngle() {
+        return getZAngleRadian() * 180 / Math.PI
+    }
     /**
      * Returns with the result of the (a xor b) operation.
      * @param a an integer number
